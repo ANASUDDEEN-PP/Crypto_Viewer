@@ -1,0 +1,47 @@
+.header{
+    width: 92vw;
+    height: 8vh;
+    background-color: #291d66;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 700px;
+}
+
+.headerElement{
+    display: flex;
+}
+
+.searchInput{
+    width: 299px;
+    height: 30px;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    margin-right: 5px;
+    outline: none;
+    color: #fff;
+}
+
+.searchButton{
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.Login{
+    padding: 7px 25px;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 20px;
+    transition: .8s;
+}
+
+.Login:hover{
+    background-color: #fff;
+    color: #291d66;
+    border: none;
+}
